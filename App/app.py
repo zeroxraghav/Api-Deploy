@@ -4,7 +4,7 @@ import pickle
 import time
 
 # Load important features list
-with open('../features.pkl', 'rb') as f:
+with open('features.pkl', 'rb') as f:
     important_features = pickle.load(f)
 
 # Custom CSS for better styling
